@@ -1,14 +1,11 @@
 package org.dfernandez.f1000;
 
 
-
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.*;
 import org.junit.*;
 
 import org.dfernandez.f1000.model.Journal;
-
-
 import org.dfernandez.f1000.service.JournalRanker;
 
 import java.text.ParseException;
@@ -27,7 +24,6 @@ public class AppTest {
     Journal journalC;
     Journal journal;
     List<Journal> allJournals;
-    List<Journal> list;
     List<Journal> actualSolution;
     List<Journal> expectedSolution;
 
@@ -85,8 +81,6 @@ public class AppTest {
 
 
     }
-
-
 
 
     /**
